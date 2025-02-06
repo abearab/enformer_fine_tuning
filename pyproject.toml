@@ -2,16 +2,16 @@
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.poetry]
+[project]
 name = "performer"
 version = "1.0.0"
 readme = "README.md"
 description = "For fine-tuning Enformer using paired WGS & gene expression data"
 
 authors = [
-	"Shiron Drusinsky",
-	"Sean Whalen",
-	"Katherine S. Pollard"
+	{ name = "Shiron Drusinsky" },
+	{ name = "Sean Whalen"},
+	{ name = "Katherine S. Pollard"}
 ]
 
 packages = [
