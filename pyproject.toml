@@ -10,18 +10,11 @@ description = "For fine-tuning Enformer using paired WGS & gene expression data"
 
 authors = [
 	{ name = "Shiron Drusinsky" },
-	{ name = "Sean Whalen"},
-	{ name = "Katherine S. Pollard"}
+	{ name = "Sean Whalen" },
+	{ name = "Katherine S. Pollard" }
 ]
 
-packages = [
-	{ include = "performer" },
-	{ include = "data" },
-	{ include = "pyproject.toml" }
-]
-
-[tool.poetry.urls]
-Source = "https://github.com/shirondru/enformer_fine_tuning"
+urls = { "Homepage" = "https://github.com/shirondru/enformer_fine_tuning" }
 
 [tool.poetry.dependencies]
 python = "^3.12 <4.0"
